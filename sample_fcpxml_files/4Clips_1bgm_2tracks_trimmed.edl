@@ -1,0 +1,514 @@
+Samplitude EDL File Format Version 1.7 
+Title: "2025-09-12.MVD" 
+Sample Rate: 48000 
+Output Channels: 2 
+Software VideoDeLuxe 
+Softversion 20.0.3.181 
+
+Source Table Entries: 9 
+   1 "E:\__03_Content_Creation\70_Scripts\footage_thumbnail\test-videos\0909_120607_C.mp4" VIDEO
+   2 "E:\__03_Content_Creation\70_Scripts\footage_thumbnail\test-videos\0909_120607_C.mp4" AUDIO
+   3 "E:\__03_Content_Creation\70_Scripts\footage_thumbnail\test-videos\0909_120533_C.mp4" VIDEO
+   4 "E:\__03_Content_Creation\70_Scripts\footage_thumbnail\test-videos\0909_120533_C.mp4" AUDIO
+   5 "E:\__03_Content_Creation\70_Scripts\footage_thumbnail\test-videos\0909_104223_GX.mp4" VIDEO
+   6 "E:\__03_Content_Creation\70_Scripts\footage_thumbnail\test-videos\0909_104223_GX.mp4" AUDIO
+   7 "E:\__03_Content_Creation\70_Scripts\footage_thumbnail\test-videos\0909_102441_GX.mp4" VIDEO
+   8 "E:\__03_Content_Creation\70_Scripts\footage_thumbnail\test-videos\0909_102441_GX.mp4" AUDIO
+   9 "E:\__03_Content_Creation\04_BGM\__AudioHero\Acoustic Rock\12-Gentle-Reminder-FULL-SM467.mp3" AUDIO
+
+Track 1: "Track:" Solo: 0 Mute: 0 
+#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
+#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
+      1     1           0     1025280           0     1025280     0.00  0  0            0     0 "*default"                                    0     0 "*default"                         "0909_120607_C.mp4"
+      3     1     1025280     1370880           0      345600     0.00  0  0            0     0 "*default"                                    0     0 "*default"                         "0909_120533_C.mp4"
+
+Track 2: "Track:" Solo: 0 Mute: 0 
+#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
+#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
+      2     2           0     1025280           0     1025280     0.00  0  0            0     0 "*default"                                    0     0 "*default"                         "0909_120607_C.mp4"
+      4     2     1025280     1370880           0      345600     0.00  0  0            0     0 "*default"                                    0     0 "*default"                         "0909_120533_C.mp4"
+
+Track 3: "Track:" Solo: 0 Mute: 0 
+#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
+#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
+      5     3     1217280     1893120           0      675840     0.00  0  0            0     0 "*default"                                    0     0 "*default"                         "0909_104223_GX.mp4"
+      7     3     1893120     2461440           0      568320     0.00  0  0            0     0 "*default"                                    0     0 "*default"                         "0909_102441_GX.mp4"
+
+Track 4: "Track:" Solo: 0 Mute: 0 
+#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
+#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
+      6     4     1217280     1893120           0      675840     0.00  0  0            0     0 "*default"                                    0     0 "*default"                         "0909_104223_GX.mp4"
+      8     4     1893120     2461440           0      568320     0.00  0  0            0     0 "*default"                                    0     0 "*default"                         "0909_102441_GX.mp4"
+
+Track 5: "Track:" Solo: 0 Mute: 0 
+#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
+#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
+      9     5           0     2461440           0     2261448     0.00  0  0            0     0 "*default"                                    0     0 "*default"                         "12-Gentle-Reminder-FULL-SM467.mp3"
+
+Track 6: "Track:" Solo: 0 Mute: 0 
+#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
+#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
+
+Track 7: "Track:" Solo: 0 Mute: 0 
+#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
+#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
+
+Track 8: "Track:" Solo: 0 Mute: 0 
+#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
+#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
+
+Track 9: "Track:" Solo: 0 Mute: 0 
+#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
+#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
+
+Track 10: "Track:" Solo: 0 Mute: 0 
+#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
+#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
+
+Track 11: "Track:" Solo: 0 Mute: 0 
+#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
+#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
+
+Track 12: "Track:" Solo: 0 Mute: 0 
+#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
+#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
+
+Track 13: "Track:" Solo: 0 Mute: 0 
+#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
+#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
+
+Track 14: "Track:" Solo: 0 Mute: 0 
+#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
+#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
+
+Track 15: "Track:" Solo: 0 Mute: 0 
+#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
+#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
+
+Track 16: "Track:" Solo: 0 Mute: 0 
+#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
+#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
+
+Track 17: "Track:" Solo: 0 Mute: 0 
+#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
+#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
+
+Track 18: "Track:" Solo: 0 Mute: 0 
+#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
+#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
+
+Track 19: "Track:" Solo: 0 Mute: 0 
+#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
+#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
+
+Track 20: "Track:" Solo: 0 Mute: 0 
+#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
+#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
+
+Track 21: "Track:" Solo: 0 Mute: 0 
+#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
+#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
+
+Track 22: "Track:" Solo: 0 Mute: 0 
+#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
+#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
+
+Track 23: "Track:" Solo: 0 Mute: 0 
+#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
+#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
+
+Track 24: "Track:" Solo: 0 Mute: 0 
+#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
+#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
+
+Track 25: "Track:" Solo: 0 Mute: 0 
+#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
+#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
+
+Track 26: "Track:" Solo: 0 Mute: 0 
+#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
+#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
+
+Track 27: "Track:" Solo: 0 Mute: 0 
+#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
+#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
+
+Track 28: "Track:" Solo: 0 Mute: 0 
+#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
+#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
+
+Track 29: "Track:" Solo: 0 Mute: 0 
+#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
+#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
+
+Track 30: "Track:" Solo: 0 Mute: 0 
+#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
+#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
+
+Track 31: "Track:" Solo: 0 Mute: 0 
+#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
+#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
+
+Track 32: "Track:" Solo: 0 Mute: 0 
+#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
+#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
+
+Track 33: "Track:" Solo: 0 Mute: 0 
+#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
+#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
+
+Track 34: "Track:" Solo: 0 Mute: 0 
+#Source Track Play-In     Play-Out    Record-In   Record-Out  Vol(dB)  MT LK FadeIn       %     CurveType                          FadeOut      %     CurveType                          Name
+#------ ----- ----------- ----------- ----------- ----------- -------- -- -- ------------ ----- ---------------------------------- ------------ ----- ---------------------------------- -----
+
+
+#Volume/Pan curves
+
+
+Volume for Track 1:
+#Play-In       Vol(dB)
+#----------- ---------
+           0    -0.000
+
+Pan for Track 1:
+#Play-In      Pan(0...2)
+#----------- ---------
+           0   1.00000
+
+Volume for Track 2:
+#Play-In       Vol(dB)
+#----------- ---------
+           0    -0.000
+
+Pan for Track 2:
+#Play-In      Pan(0...2)
+#----------- ---------
+           0   1.00000
+
+Volume for Track 3:
+#Play-In       Vol(dB)
+#----------- ---------
+           0    -0.000
+
+Pan for Track 3:
+#Play-In      Pan(0...2)
+#----------- ---------
+           0   1.00000
+
+Volume for Track 4:
+#Play-In       Vol(dB)
+#----------- ---------
+           0    -0.000
+
+Pan for Track 4:
+#Play-In      Pan(0...2)
+#----------- ---------
+           0   1.00000
+
+Volume for Track 5:
+#Play-In       Vol(dB)
+#----------- ---------
+           0    -0.000
+
+Pan for Track 5:
+#Play-In      Pan(0...2)
+#----------- ---------
+           0   1.00000
+
+Volume for Track 6:
+#Play-In       Vol(dB)
+#----------- ---------
+           0    -0.000
+
+Pan for Track 6:
+#Play-In      Pan(0...2)
+#----------- ---------
+           0   1.00000
+
+Volume for Track 7:
+#Play-In       Vol(dB)
+#----------- ---------
+           0    -0.000
+
+Pan for Track 7:
+#Play-In      Pan(0...2)
+#----------- ---------
+           0   1.00000
+
+Volume for Track 8:
+#Play-In       Vol(dB)
+#----------- ---------
+           0    -0.000
+
+Pan for Track 8:
+#Play-In      Pan(0...2)
+#----------- ---------
+           0   1.00000
+
+Volume for Track 9:
+#Play-In       Vol(dB)
+#----------- ---------
+           0    -0.000
+
+Pan for Track 9:
+#Play-In      Pan(0...2)
+#----------- ---------
+           0   1.00000
+
+Volume for Track 10:
+#Play-In       Vol(dB)
+#----------- ---------
+           0    -0.000
+
+Pan for Track 10:
+#Play-In      Pan(0...2)
+#----------- ---------
+           0   1.00000
+
+Volume for Track 11:
+#Play-In       Vol(dB)
+#----------- ---------
+           0    -0.000
+
+Pan for Track 11:
+#Play-In      Pan(0...2)
+#----------- ---------
+           0   1.00000
+
+Volume for Track 12:
+#Play-In       Vol(dB)
+#----------- ---------
+           0    -0.000
+
+Pan for Track 12:
+#Play-In      Pan(0...2)
+#----------- ---------
+           0   1.00000
+
+Volume for Track 13:
+#Play-In       Vol(dB)
+#----------- ---------
+           0    -0.000
+
+Pan for Track 13:
+#Play-In      Pan(0...2)
+#----------- ---------
+           0   1.00000
+
+Volume for Track 14:
+#Play-In       Vol(dB)
+#----------- ---------
+           0    -0.000
+
+Pan for Track 14:
+#Play-In      Pan(0...2)
+#----------- ---------
+           0   1.00000
+
+Volume for Track 15:
+#Play-In       Vol(dB)
+#----------- ---------
+           0    -0.000
+
+Pan for Track 15:
+#Play-In      Pan(0...2)
+#----------- ---------
+           0   1.00000
+
+Volume for Track 16:
+#Play-In       Vol(dB)
+#----------- ---------
+           0    -0.000
+
+Pan for Track 16:
+#Play-In      Pan(0...2)
+#----------- ---------
+           0   1.00000
+
+Volume for Track 17:
+#Play-In       Vol(dB)
+#----------- ---------
+           0    -0.000
+
+Pan for Track 17:
+#Play-In      Pan(0...2)
+#----------- ---------
+           0   1.00000
+
+Volume for Track 18:
+#Play-In       Vol(dB)
+#----------- ---------
+           0    -0.000
+
+Pan for Track 18:
+#Play-In      Pan(0...2)
+#----------- ---------
+           0   1.00000
+
+Volume for Track 19:
+#Play-In       Vol(dB)
+#----------- ---------
+           0    -0.000
+
+Pan for Track 19:
+#Play-In      Pan(0...2)
+#----------- ---------
+           0   1.00000
+
+Volume for Track 20:
+#Play-In       Vol(dB)
+#----------- ---------
+           0    -0.000
+
+Pan for Track 20:
+#Play-In      Pan(0...2)
+#----------- ---------
+           0   1.00000
+
+Volume for Track 21:
+#Play-In       Vol(dB)
+#----------- ---------
+           0    -0.000
+
+Pan for Track 21:
+#Play-In      Pan(0...2)
+#----------- ---------
+           0   1.00000
+
+Volume for Track 22:
+#Play-In       Vol(dB)
+#----------- ---------
+           0    -0.000
+
+Pan for Track 22:
+#Play-In      Pan(0...2)
+#----------- ---------
+           0   1.00000
+
+Volume for Track 23:
+#Play-In       Vol(dB)
+#----------- ---------
+           0    -0.000
+
+Pan for Track 23:
+#Play-In      Pan(0...2)
+#----------- ---------
+           0   1.00000
+
+Volume for Track 24:
+#Play-In       Vol(dB)
+#----------- ---------
+           0    -0.000
+
+Pan for Track 24:
+#Play-In      Pan(0...2)
+#----------- ---------
+           0   1.00000
+
+Volume for Track 25:
+#Play-In       Vol(dB)
+#----------- ---------
+           0    -0.000
+
+Pan for Track 25:
+#Play-In      Pan(0...2)
+#----------- ---------
+           0   1.00000
+
+Volume for Track 26:
+#Play-In       Vol(dB)
+#----------- ---------
+           0    -0.000
+
+Pan for Track 26:
+#Play-In      Pan(0...2)
+#----------- ---------
+           0   1.00000
+
+Volume for Track 27:
+#Play-In       Vol(dB)
+#----------- ---------
+           0    -0.000
+
+Pan for Track 27:
+#Play-In      Pan(0...2)
+#----------- ---------
+           0   1.00000
+
+Volume for Track 28:
+#Play-In       Vol(dB)
+#----------- ---------
+           0    -0.000
+
+Pan for Track 28:
+#Play-In      Pan(0...2)
+#----------- ---------
+           0   1.00000
+
+Volume for Track 29:
+#Play-In       Vol(dB)
+#----------- ---------
+           0    -0.000
+
+Pan for Track 29:
+#Play-In      Pan(0...2)
+#----------- ---------
+           0   1.00000
+
+Volume for Track 30:
+#Play-In       Vol(dB)
+#----------- ---------
+           0    -0.000
+
+Pan for Track 30:
+#Play-In      Pan(0...2)
+#----------- ---------
+           0   1.00000
+
+Volume for Track 31:
+#Play-In       Vol(dB)
+#----------- ---------
+           0    -0.000
+
+Pan for Track 31:
+#Play-In      Pan(0...2)
+#----------- ---------
+           0   1.00000
+
+Volume for Track 32:
+#Play-In       Vol(dB)
+#----------- ---------
+           0    -0.000
+
+Pan for Track 32:
+#Play-In      Pan(0...2)
+#----------- ---------
+           0   1.00000
+
+Volume for Track 33:
+#Play-In       Vol(dB)
+#----------- ---------
+           0    -0.000
+
+Pan for Track 33:
+#Play-In      Pan(0...2)
+#----------- ---------
+           0   1.00000
+
+Volume for Track 34:
+#Play-In       Vol(dB)
+#----------- ---------
+           0    -0.000
+
+Pan for Track 34:
+#Play-In      Pan(0...2)
+#----------- ---------
+           0   1.00000
+
+
+Markerlist:
+#Play-In     Type-ID CP EM ISRC           Name
+#----------- ------- -- -- -------------- ----
+           0     101                      "S"
+           0     116                      "P"
+     2461440     102                      "E"

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+<fcpxml version="1.8">
+    <resources>
+        <format id="r0" name="FFVideoFormat1080p24" width="1920" height="1080" frameDuration="1/24s"/>
+        <format id="r1" name="FFVideoFormat3840x2160p25" width="3840" height="2160" frameDuration="1/25s"/>
+        <asset audioChannels="2" id="r2" name="0909_102441_GX.mp4" hasAudio="1" format="r1" hasVideo="1" duration="564/25s" src="file://localhost/E:/__03_Content_Creation/70_Scripts/footage_thumbnail/test-videos/0909_102441_GX.mp4" start="947449/25s" audioSources="1"/>
+        <asset audioChannels="2" id="r3" name="0909_104223_GX.mp4" hasAudio="1" format="r1" hasVideo="1" duration="739/25s" src="file://localhost/E:/__03_Content_Creation/70_Scripts/footage_thumbnail/test-videos/0909_104223_GX.mp4" start="973822/25s" audioSources="1"/>
+        <asset audioChannels="2" id="r4" name="0909_120533_C.mp4" hasAudio="1" format="r1" hasVideo="1" duration="36/5s" src="file://localhost/E:/__03_Content_Creation/70_Scripts/footage_thumbnail/test-videos/0909_120533_C.mp4" start="0/1s" audioSources="1"/>
+        <asset audioChannels="2" id="r5" name="0909_120607_C.mp4" hasAudio="1" format="r1" hasVideo="1" duration="684/25s" src="file://localhost/E:/__03_Content_Creation/70_Scripts/footage_thumbnail/test-videos/0909_120607_C.mp4" start="0/1s" audioSources="1"/>
+        <asset audioChannels="2" id="r6" name="0909_183725_C.mp4" hasAudio="1" format="r1" hasVideo="1" duration="228/25s" src="file://localhost/E:/__03_Content_Creation/70_Scripts/footage_thumbnail/test-videos/0909_183725_C.mp4" start="0/1s" audioSources="1"/>
+        <asset audioChannels="2" id="r7" name="0909_184220_C.mp4" hasAudio="1" format="r1" hasVideo="1" duration="96/25s" src="file://localhost/E:/__03_Content_Creation/70_Scripts/footage_thumbnail/test-videos/0909_184220_C.mp4" start="0/1s" audioSources="1"/>
+    </resources>
+    <library>
+        <event name="6Clips_Devince_Edited_By_Gemini (Resolve) (Resolve)">
+            <project name="6Clips_Devince_Edited_By_Gemini (Resolve) (Resolve)">
+                <sequence tcStart="3600/1s" tcFormat="NDF" format="r0" duration="409/6s">
+                    <spine>
+                        <asset-clip enabled="1" name="0909_102441_GX.mp4" offset="3600/1s" tcFormat="NDF" format="r1" duration="49/4s" ref="r2" start="189517/5s">
+                            <adjust-transform anchor="0 0" position="0 0" scale="1 1"/>
+                        </asset-clip>
+                        <asset-clip enabled="1" name="0909_104223_GX.mp4" offset="14449/4s" tcFormat="NDF" format="r1" duration="191/24s" ref="r3" start="973822/25s">
+                            <adjust-transform anchor="0 0" position="0 0" scale="1 1"/>
+                        </asset-clip>
+                        <asset-clip enabled="1" name="0909_104223_GX.mp4" offset="86885/24s" tcFormat="NDF" format="r1" duration="41/4s" ref="r3" start="974304/25s">
+                            <adjust-transform anchor="0 0" position="0 0" scale="1 1"/>
+                        </asset-clip>
+                        <asset-clip enabled="1" name="0909_120533_C.mp4" offset="87131/24s" tcFormat="NDF" format="r1" duration="43/6s" ref="r4" start="0/1s">
+                            <adjust-transform anchor="0 0" position="0 0" scale="1 1"/>
+                        </asset-clip>
+                        <asset-clip enabled="1" name="0909_120607_C.mp4" offset="29101/8s" tcFormat="NDF" format="r1" duration="241/24s" ref="r5" start="0/1s">
+                            <adjust-transform anchor="0 0" position="0 0" scale="1 1"/>
+                        </asset-clip>
+                        <asset-clip enabled="1" name="0909_120607_C.mp4" offset="10943/3s" tcFormat="NDF" format="r1" duration="91/12s" ref="r5" start="494/25s">
+                            <adjust-transform anchor="0 0" position="0 0" scale="1 1"/>
+                        </asset-clip>
+                        <asset-clip enabled="1" name="0909_183725_C.mp4" offset="14621/4s" tcFormat="NDF" format="r1" duration="109/12s" ref="r6" start="0/1s">
+                            <adjust-transform anchor="0 0" position="0 0" scale="1 1"/>
+                        </asset-clip>
+                        <asset-clip enabled="1" name="0909_184220_C.mp4" offset="10993/3s" tcFormat="NDF" format="r1" duration="23/6s" ref="r7" start="0/1s">
+                            <adjust-transform anchor="0 0" position="0 0" scale="1 1"/>
+                        </asset-clip>
+                    </spine>
+                </sequence>
+            </project>
+        </event>
+    </library>
+</fcpxml>

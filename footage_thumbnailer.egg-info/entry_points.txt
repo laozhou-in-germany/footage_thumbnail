@@ -1,0 +1,2 @@
+[console_scripts]
+footage-thumbnailer = src.main:main
