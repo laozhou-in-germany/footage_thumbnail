@@ -1168,11 +1168,22 @@ class GUIApplication:
         
         all_valid = all(validator() for validator in validators)
         
-        # Validate source folders
+        # Check if FCPXML file is provided
+        fcpxml_file = self.fcpxml_file_var.get().strip()
+        is_fcpxml_mode = bool(fcpxml_file) and os.path.exists(fcpxml_file) and os.path.isfile(fcpxml_file)
+        
+        # Validate source folders only when not in FCPXML mode
         folders = self.get_current_folders()
-        if not folders:
+        if not is_fcpxml_mode and not folders:
             self.log_message("Error: No source folders selected")
             all_valid = False
+        
+        # Validate FCPXML file when in FCPXML mode
+        if is_fcpxml_mode:
+            if not fcpxml_file.lower().endswith('.fcpxml'):
+                self.log_message("Error: FCPXML file must have .fcpxml extension")
+                all_valid = False
+            # Additional FCPXML validation can be added here if needed
         
         # Validate output path
         output_path = self.output_path_var.get().strip()

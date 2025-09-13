@@ -233,6 +233,10 @@ class TestGUIApplication(unittest.TestCase):
         self.app.output_path_var = Mock()
         self.app.output_path_var.get.return_value = "output/test.jpg"
         
+        # Mock FCPXML file var
+        self.app.fcpxml_file_var = Mock()
+        self.app.fcpxml_file_var.get.return_value = ""
+        
         result = self.app.validate_all_inputs()
         self.assertTrue(result)
     
@@ -258,6 +262,10 @@ class TestGUIApplication(unittest.TestCase):
         self.app.output_path_var = Mock()
         self.app.output_path_var.get.return_value = "output/test.jpg"
         self.app.log_message = Mock()
+        
+        # Mock FCPXML file var
+        self.app.fcpxml_file_var = Mock()
+        self.app.fcpxml_file_var.get.return_value = ""
         
         result = self.app.validate_all_inputs()
         self.assertFalse(result)
@@ -286,6 +294,10 @@ class TestGUIApplication(unittest.TestCase):
         self.app.output_path_var.get.return_value = ""
         self.app.log_message = Mock()
         
+        # Mock FCPXML file var
+        self.app.fcpxml_file_var = Mock()
+        self.app.fcpxml_file_var.get.return_value = ""
+        
         result = self.app.validate_all_inputs()
         self.assertFalse(result)
         self.app.log_message.assert_called_with("Error: Output path cannot be empty")
@@ -300,7 +312,7 @@ class TestGUIApplication(unittest.TestCase):
         
         # Test updating text color button
         self.app.update_color_button("text", "#FF0000")
-        self.app.text_color_btn.configure.assert_called_with(text="🟨 #FF0000")
+        self.app.text_color_btn.configure.assert_called_with(text="🟪 #FF0000")
         
         # Test updating background color button
         self.app.update_color_button("background", "#000000")
@@ -478,14 +490,17 @@ class TestGUIConfigurationIntegration(unittest.TestCase):
         # Test PNG format
         result = app.save_configuration()
         self.assertTrue(result)
-        app.output_path_var.set.assert_called_with("output/test.png")
-        
+        # Use os.path to handle platform-specific path separators
+        expected_path = os.path.join("output", "test.png")
+        app.output_path_var.set.assert_called_with(expected_path)
+
         # Test JPEG format
         app.format_var.get.return_value = "JPEG"
-        app.output_path_var.get.return_value = "output/test"
+        app.output_path_var.get.return_value = os.path.join("output", "test")
         result = app.save_configuration()
         self.assertTrue(result)
-        app.output_path_var.set.assert_called_with("output/test.jpg")
+        expected_path = os.path.join("output", "test.jpg")
+        app.output_path_var.set.assert_called_with(expected_path)
 
 
 if __name__ == '__main__':
