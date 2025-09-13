@@ -152,6 +152,54 @@ class TestUnifiedProcessor(unittest.TestCase):
         self.assertTrue(is_valid)
         self.assertEqual(len(errors), 0)
     
+    def test_configuration_validation_fcpxml_mode_empty_folders(self):
+        """Test configuration validation in FCPXML mode with empty source folders."""
+        # Create a valid test FCPXML file
+        fcpxml_content = '''<?xml version="1.0" encoding="UTF-8"?>
+<fcpxml version="1.8">
+    <resources>
+        <format id="r0" name="FFVideoFormat1080p24" width="1920" height="1080" frameDuration="1/24s"/>
+        <asset id="r1" name="test.mp4" src="file://localhost/C:/Videos/test.mp4" duration="5/1s"/>
+    </resources>
+    <library>
+        <event name="Test Event">
+            <project name="Test Project">
+                <sequence format="r0" duration="5/1s">
+                    <spine>
+                        <asset-clip name="test.mp4" offset="0/1s" duration="5/1s" ref="r1"/>
+                    </spine>
+                </sequence>
+            </project>
+        </event>
+    </library>
+</fcpxml>'''
+        
+        fcpxml_file = os.path.join(self.temp_dir, "test.fcpxml")
+        with open(fcpxml_file, 'w', encoding='utf-8') as f:
+            f.write(fcpxml_content)
+        
+        # Update config to use valid FCPXML file and empty source folders
+        self.config_manager.update_config({
+            "fcpxml_file_path": fcpxml_file,
+            "source_folders": []  # Empty source folders should be allowed in FCPXML mode
+        })
+        
+        is_valid, errors = self.processor.validate_configuration()
+        # This should pass since we have a valid FCPXML file (source folders not required)
+        self.assertTrue(is_valid)
+        self.assertEqual(len(errors), 0)
+        
+        # Also test that it fails with invalid FCPXML file path
+        self.config_manager.update_config({
+            "fcpxml_file_path": os.path.join(self.temp_dir, "nonexistent.fcpxml"),
+            "source_folders": []
+        })
+        
+        is_valid, errors = self.processor.validate_configuration()
+        # This should fail because FCPXML file doesn't exist
+        self.assertFalse(is_valid)
+        self.assertGreater(len(errors), 0)
+    
     @patch('core.unified_processor.VideoScanner')
     @patch('core.unified_processor.ThumbnailExtractor')
     @patch('core.unified_processor.ImageComposer')

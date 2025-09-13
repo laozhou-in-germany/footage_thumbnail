@@ -621,14 +621,15 @@ class UnifiedProcessor:
         errors = []
         config = self.config_manager.load_config()
         
-        # Check source folders
-        source_folders = config.get('source_folders', [])
-        if not source_folders:
-            errors.append("No source folders specified")
-        else:
-            for folder in source_folders:
-                if not os.path.exists(folder):
-                    errors.append(f"Source folder does not exist: {folder}")
+        # Check source folders - only required when NOT in FCPXML mode
+        if not self._is_timeline_mode(config):
+            source_folders = config.get('source_folders', [])
+            if not source_folders:
+                errors.append("No source folders specified")
+            else:
+                for folder in source_folders:
+                    if not os.path.exists(folder):
+                        errors.append(f"Source folder does not exist: {folder}")
         
         # Check output path
         output_path = config.get('output_path', '')

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fcpxml>
+<fcpxml version="1.8">
+    <resources>
+        <format frameDuration="1/25s" height="1080" name="FFVideoFormat1080p25" width="1920" id="r0"/>
+        <format frameDuration="1/25s" height="2160" name="FFVideoFormat3840x2160p25" width="3840" id="r1"/>
+        <asset start="0/1s" duration="36/5s" audioChannels="2" audioSources="1" format="r1" name="0909_120533_C.mp4" hasAudio="1" src="file://localhost/E:/__03_Content_Creation/70_Scripts/_released/footage_thumbnail/test-videos/0909_120533_C.mp4" id="r2" hasVideo="1"/>
+        <asset start="0/1s" duration="96/25s" audioChannels="2" audioSources="1" format="r1" name="0909_184220_C.mp4" hasAudio="1" src="file://localhost/E:/__03_Content_Creation/70_Scripts/_released/footage_thumbnail/test-videos/0909_184220_C.mp4" id="r3" hasVideo="1"/>
+    </resources>
+    <library>
+        <event name="Timeline 1 (Resolve)">
+            <project name="Timeline 1 (Resolve)">
+                <sequence duration="21/5s" format="r0" tcFormat="NDF" tcStart="3600/1s">
+                    <spine>
+                        <asset-clip start="0/1s" duration="44/25s" enabled="1" offset="3600/1s" format="r1" name="0909_120533_C.mp4" ref="r2" tcFormat="NDF">
+                            <adjust-transform position="0 0" scale="1 1" anchor="0 0"/>
+                        </asset-clip>
+                        <asset-clip start="24/25s" duration="37/25s" enabled="1" offset="90044/25s" format="r1" name="0909_184220_C.mp4" ref="r3" tcFormat="NDF">
+                            <adjust-transform position="0 0" scale="1 1" anchor="0 0"/>
+                        </asset-clip>
+                        <asset-clip start="156/25s" duration="24/25s" enabled="1" offset="90081/25s" format="r1" name="0909_120533_C.mp4" ref="r2" tcFormat="NDF">
+                            <adjust-transform position="0 0" scale="1 1" anchor="0 0"/>
+                        </asset-clip>
+                    </spine>
+                </sequence>
+            </project>
+        </event>
+    </library>
+</fcpxml>

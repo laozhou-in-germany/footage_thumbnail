@@ -1,8 +1,8 @@
 {
   "source_folders": [
-    "E:/__03_Content_Creation/10_Projects/2024-04-30_Italy/D8_Bologna1"
+    "E:/__03_Content_Creation/70_Scripts/footage_thumbnail/test-videos"
   ],
-  "output_path": "output/italy.jpg",
+  "output_path": "output/italy_fcpxml_folder.jpg",
   "thumbnail_width": 320,
   "clips_per_row": 6,
   "positions": "0%,95%",
@@ -31,6 +31,6 @@
   "fcpxml_use_interval_positions": true,
   "fcpxml_placeholder_color": "#F0F0F0",
   "fcpxml_similarity_threshold": 0.6,
-  "basic_settings_expanded": true,
+  "basic_settings_expanded": false,
   "last_fcpxml_folder": "E:/__03_Content_Creation/70_Scripts/footage_thumbnail/sample_fcpxml_files"
 }
